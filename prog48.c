@@ -1,20 +1,12 @@
 #include<stdio.h>
 int main()
 {
-	int n;
-	
-	printf("Enter any integer:");
-	scanf("%i",&n);
-	
-	if(n==0)
-		printf("It is zero");
-	
-	if(n>0)
-		printf("It is +ve number");
-	
-	if(n<0)
-		printf("It is -ve number");
-	
+	int a,b,c,d;
+	a=40>=30;
+	b=10+30<48/2;
+	c=20*2>=25%3;
+	d=10+20==25+5;
+	printf("%i\n%i\n%i\n%i",a,b,c,d);
 	return 0;
 }
 
