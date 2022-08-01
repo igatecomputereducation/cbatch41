@@ -7,7 +7,7 @@ int main()
 	scanf("%i",&pp);
 	printf("Selling price:");
 	scanf("%i",&sp);
-	
+
 	if(sp==pp)
 		printf("No loss no profit");
 	if(sp>pp)
