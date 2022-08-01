@@ -1,23 +1,24 @@
 #include<stdio.h>
 int main()
 {
-	int year;
-	printf("Enter any year:");
-	scanf("%i",&year);
-	if(year%100==0)
+	int mat,phy,che;
+	printf("Enter marks in maths, physics and chemistry..\n");
+	scanf("%i%i%i",&mat,&phy,&che);
+	if(mat>=52)
 	{
-		if(year%400==0)
-			printf("Leap year");
+		if(phy>=21)
+		{
+			if(che>=21)
+				printf("pass");
+			else
+				printf("Failed");
+		}
 		else
-			printf("Not a Leap year");
+			printf("Failed");
 	}
 	else
-	{
-		if(year%4==0)
-			printf("Leap year");
-		else
-			printf("Not a Leap year");
-	}
+		printf("Failed");
+	
 	return 0;
 }
 
