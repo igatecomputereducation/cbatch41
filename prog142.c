@@ -29,11 +29,9 @@ int main()
 			os=os+i;
 	}
 	
-	
 	printf("Sum of all natural numbers %i\n",sum);
 	printf("Sum of even numbers %i\n",es);
 	printf("Sum of odd numbers %i",os);
-	
 	return 0;
 }
 
