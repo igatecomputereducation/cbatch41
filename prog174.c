@@ -9,8 +9,6 @@ int main()
 			printf("%5d",j);
 		printf("\n\n");
 	}
-	
-	
 	return 0;
 }
 
