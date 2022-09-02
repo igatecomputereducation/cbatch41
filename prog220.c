@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int a[]={10,20,30,40,50};
+	int a[5]={10,20,30,40,50};
 	int i;
 	
 	printf("The given elements are\n");
