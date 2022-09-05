@@ -26,6 +26,8 @@ int main()
 			printf("%5i",b[i][j]);
 		printf("\n\n");
 	}
+	
+	
 	return 0;
 }
 
